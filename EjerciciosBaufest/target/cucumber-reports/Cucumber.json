@@ -1,0 +1,308 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Signing up new user",
+        "description": "",
+        "id": "creating-an-user---login/logout;signing-up-new-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2082989841,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the web \"https://www.demoblaze.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.demoblaze.com/\"",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginStep.i_enter_the_web(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90801104,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I chose the option \"Sign up\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign up\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginStep.chose_the_option(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 675783574,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I set the username \"admin110\" and password \"admin100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin110\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"admin100\"",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginStep.set_the_username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66305800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click the button \"Sign up\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign up\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginStep.iClickTheButton(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: We verify succesfull message expected:\u003c[Sign up successful].\u003e but was:\u003c[This user already exist].\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat web.steps.LoginStep.i_should_see_the_message(LoginStep.java:39)\n\tat ✽.I should see the message \"Sign up successful.\"(src/main/resources/Features/web/Login.feature:9)\n",
+              "duration": 1037112609,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I should see the message \"Sign up successful.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign up successful.\"",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStep.i_should_see_the_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Log-in and log-out user",
+        "description": "",
+        "id": "creating-an-user---login/logout;log-in-and-log-out-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2784462276,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am already log in",
+            "match": {
+              "location": "LoginStep.userIsAlreadyLogIn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 342171351,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I chose the option \"Log out\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Log out\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginStep.chose_the_option(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51217488,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should see the menu option \"Sign up\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign up\"",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginStep.iShouldSeeMyUsername(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Creating an user - login/logout",
+    "description": "",
+    "id": "creating-an-user---login/logout",
+    "keyword": "Feature",
+    "uri": "src/main/resources/Features/web/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Add a laptop to shopping cart",
+        "description": "",
+        "id": "add-a-product-to-shopping-cart;add-a-laptop-to-shopping-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2043459536,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am already log in",
+            "match": {
+              "location": "LoginStep.userIsAlreadyLogIn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66034735,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I chose categories \"Laptops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Laptops\"",
+                  "offset": 19
+                }
+              ],
+              "location": "ShoppingCartStep.i_chose_categories(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1042858798,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I chose a product \"MacBook air\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MacBook air\"",
+                  "offset": 18
+                }
+              ],
+              "location": "ShoppingCartStep.i_chose_a_product(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1665244364,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I add the product to shopping cart",
+            "match": {
+              "location": "ShoppingCartStep.iAddTheProductToShoppingCart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 715470382,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I chose the option \"Cart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cart\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginStep.chose_the_option(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1065563083,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see name of the product \"MacBook air\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MacBook air\"",
+                  "offset": 33
+                }
+              ],
+              "location": "ShoppingCartStep.i_should_see_name_of_the_product(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Add a product to shopping cart",
+    "description": "",
+    "id": "add-a-product-to-shopping-cart",
+    "keyword": "Feature",
+    "uri": "src/main/resources/Features/web/ShoppingCart.feature",
+    "tags": []
+  }
+]
