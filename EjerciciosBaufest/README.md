@@ -9,6 +9,8 @@ you need to change your IDE configurations:
  - Go to Preferences/Build, Execution, Deployment/Compiler/Java Compiler and change java version as your OS uses.
  - Go to Proyect Structure/Project and change java version as your OS uses (also apply for Proyect Structure/Modules).
 
+3. The latest updates are in "develop" branch.
+
 ##Web
 For the execution of web section you must run "Runner" java class (src/test/java/web/run/Runner.java)
 
