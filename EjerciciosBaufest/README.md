@@ -14,3 +14,9 @@ For the execution of web section you must run "Runner" java class (src/test/java
 
 ##API
 For the execution of api section you must run "APIRunner" java class (src/test/java/apis/run/APIRunner.java)
+
+##Upcoming Updates
+1. Use a Manager for create just one instance for new page object (singleton)
+2. Use Hooks java class for web or api pre-conditions initiation
+3. Use a configuration.properties file for set implicit or explicit wait values, set enviroment, kind of driver or driverPath, etc.
+4. Create a testDataResources for json data and schema validation.
