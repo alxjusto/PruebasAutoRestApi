@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2082989841,
+              "duration": 2079130759,
               "status": "passed"
             },
             "line": 5,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 90801104,
+              "duration": 94350372,
               "status": "passed"
             },
             "line": 6,
@@ -48,15 +48,15 @@
           },
           {
             "result": {
-              "duration": 675783574,
+              "duration": 689457050,
               "status": "passed"
             },
             "line": 7,
-            "name": "I set the username \"admin110\" and password \"admin100\"",
+            "name": "I set the username \"admin111\" and password \"admin100\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"admin110\"",
+                  "val": "\"admin111\"",
                   "offset": 19
                 },
                 {
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 66305800,
+              "duration": 60312367,
               "status": "passed"
             },
             "line": 8,
@@ -88,9 +88,8 @@
           },
           {
             "result": {
-              "error_message": "org.junit.ComparisonFailure: We verify succesfull message expected:\u003c[Sign up successful].\u003e but was:\u003c[This user already exist].\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat web.steps.LoginStep.i_should_see_the_message(LoginStep.java:39)\n\tat ✽.I should see the message \"Sign up successful.\"(src/main/resources/Features/web/Login.feature:9)\n",
-              "duration": 1037112609,
-              "status": "failed"
+              "duration": 1040316894,
+              "status": "passed"
             },
             "line": 9,
             "name": "I should see the message \"Sign up successful.\"",
@@ -122,7 +121,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2784462276,
+              "duration": 2697142435,
               "status": "passed"
             },
             "line": 13,
@@ -134,7 +133,7 @@
           },
           {
             "result": {
-              "duration": 342171351,
+              "duration": 353873676,
               "status": "passed"
             },
             "line": 14,
@@ -152,7 +151,7 @@
           },
           {
             "result": {
-              "duration": 51217488,
+              "duration": 51646475,
               "status": "passed"
             },
             "line": 15,
@@ -196,7 +195,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2043459536,
+              "duration": 2100225995,
               "status": "passed"
             },
             "line": 5,
@@ -208,7 +207,7 @@
           },
           {
             "result": {
-              "duration": 66034735,
+              "duration": 90238840,
               "status": "passed"
             },
             "line": 6,
@@ -226,7 +225,7 @@
           },
           {
             "result": {
-              "duration": 1042858798,
+              "duration": 1604445105,
               "status": "passed"
             },
             "line": 7,
@@ -244,7 +243,7 @@
           },
           {
             "result": {
-              "duration": 1665244364,
+              "duration": 1617463322,
               "status": "passed"
             },
             "line": 8,
@@ -256,7 +255,7 @@
           },
           {
             "result": {
-              "duration": 715470382,
+              "duration": 598536759,
               "status": "passed"
             },
             "line": 9,
@@ -274,7 +273,7 @@
           },
           {
             "result": {
-              "duration": 1065563083,
+              "duration": 1577531911,
               "status": "passed"
             },
             "line": 10,

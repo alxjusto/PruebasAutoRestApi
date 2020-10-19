@@ -56,6 +56,7 @@ public class PestSteps {
 
         request.body(requestParams.toJSONString());
         response = request.put("/pet");
+        System.out.println(response.asString());
     }
 
     @Then("I should get status code {int}")
